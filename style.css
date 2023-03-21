@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.day-card {
+  width: 350px;
+  height: 480px;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 0.8;
+  text-align: center;
+  cursor: default;
+}
+.day-card:hover {
+  box-shadow: 0px 0px 12px rgba(155, 125, 224, 0.75);
+  border: 1px solid rgba(127, 129, 255, 0.75);
+}
+.day-card .day {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.day-card .image_container {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  right: 0px;
+}
+.day-card .image_container img {
+  max-width: 100%;
+  opacity: 0.4;
+}
+.day-card .details {
+  position: absolute;
+  top: 330px;
+  left: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.day-card .topic {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+}
+.month {
+  padding-top: 20px;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  cursor: default;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 0.7;
+  color: white;
+  border-radius: 15px;
+  font-size: 35px;
+}
